@@ -1,0 +1,14 @@
+/* bugSolution.css */
+/*Instead of using calc() for complex calculations with percentages and pixels,
+ consider using alternative approaches such as flexbox or grid for more predictable and maintainable layouts.*/
+.container {
+  display: flex;
+  /* Or use grid */
+  /* adjust widths based on your layout requirement */
+}
+.element {
+  flex: 1;
+  /* Or adjust grid properties */
+  margin-right: 10px;
+}
+/*Adjust styling of elements according to need*/
